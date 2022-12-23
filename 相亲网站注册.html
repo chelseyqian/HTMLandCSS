@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相亲网站注册</title>
+</head>
+<body>
+    <h1>青春不常在，抓紧谈恋爱</h1>
+
+    <!-- 定义一个表格 -->
+    <table width="500">
+        <!-- 第一行，选择性别 -->
+        <tr>
+            <td>性别</td>
+            <!-- 第二个单元格是选择性别 -->
+            <td>
+                <form>
+                    <input type="radio" name="sex" value="nan"/>男
+                    <input type="radio" name="sex" value="nv"/>女
+                </form>
+            </td>
+        </tr>
+
+        <!-- 第二行，生日 -->
+        <tr>
+            <td>生日</td>
+            <!-- 第二个单元格，做三个下拉表单供用户选择生日 -->
+            <td>
+                <form>
+                    <!-- 选择年份 -->
+                    <select>
+                        <option>--请选择年--</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                    </select>
+                    <!-- 选择月份 -->
+                    <select>
+                        <option>--请选择月--</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                    <!-- 选择日期 -->
+                    <select>
+                        <option>--请选择日--</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+
+        <!-- 第三行，所在地区 -->
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text" name="地区" value="地区"/></td>
+        </tr>
+
+        <!-- 第四行，喜欢的类型 -->
+        <tr>
+            <td>喜欢的类型</td>
+            <!-- 第二个单元格，提供选项 -->
+            <td>
+                <form>
+                    <input type="checkbox" name="character"/>可爱的
+                    <input type="checkbox" name="character"/>小鲜肉
+                    <input type="checkbox" name="character"/>老腊肉
+                </form>
+            </td>
+        </tr>
+
+        <!-- 第五行，自我介绍 -->
+        <tr>
+            <td>自我介绍</td>
+            <td><input type="textarea" name="介绍" value="介绍"/></td>
+        </tr>
+
+        <!-- 第六行，注册按钮 -->
+        <tr>
+            <td></td>
+            <td><input type="submit" name="提交"/></td>
+        </tr>
+
+        <!-- 第七行，同意条款 -->
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="agree" checked="checked"/>我同意注册条款和会员加入标准</td>
+        </tr>
+
+        <!-- 第八行，会员登录 -->
+        <tr>
+            <td></td>
+            <td><a href="#">我是会员，立即登录</a></td>
+        </tr>
+
+        <!-- 第九行，承诺 -->
+        <tr>
+            <td></td>
+            <td>
+                <h3>
+                    我承诺<br>
+                    <ul>
+                        <li>年满18岁、单身</li>
+                        <li>抱着严肃的态度</li>
+                        <li>真诚寻找另一半</li>
+                    </ul>
+                </h3>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
