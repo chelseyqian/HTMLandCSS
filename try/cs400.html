@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chelsey Qian">
+    <title>CS400: Deleting from a Red-Black Tree</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Deleting from a Red-Black Tree</h1>
+    <h2>We divide the situations into three types:</h2>
+    <ul id="types">
+        <li>Deleted node is red</li>
+        <li>Deleted node is black and replacement is red</li>
+        <li>Deleted node is black and without red replacement</li>
+    </ul>
+    <h3>Deleted node is red</h3>
+    <p>If deleted node is red, no additional steps needed.</p>
+    <h3>Deleted node is black and replacement is red</h3>
+    <p>If deleted node is black and replacement is red, turn replacement black.</p>
+    <h3>Deleted node is black and without red replacement</h3>
+    <p>
+        Follow the algorithms in the image below:
+    </p>
+    <img src="image.png" />
+    <p class="moreInfo">
+        Want to learn more about this topic? Visit
+        <a href="https://www.programiz.com/dsa/deletion-from-a-red-black-tree">this website</a>
+    </p>
+</body>
+</html>
